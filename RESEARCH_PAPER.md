@@ -330,9 +330,9 @@ Email-Messenger opens new possibilities for decentralized, privacy-respecting co
 
 6. Jenkins, M., et al. (2019). "JMAP: The JSON Meta Application Protocol." Internet Engineering Task Force.
 
-7. Delta Chat Project. (2024). "Delta Chat: Email-based Instant Messaging." https://delta.chat/
+7. Delta Chat Project. (2024). "Delta Chat: Email-based Instant Messaging." https://delta.chat/ (Accessed February 2026)
 
-8. Nylas Platform. (2024). "Modern Email API Platform." https://www.nylas.com/
+8. Nylas Platform. (2024). "Modern Email API Platform." https://www.nylas.com/ (Accessed February 2026)
 
 9. Partridge, C. (2008). "The Technical Development of Internet Email." IEEE Annals of the History of Computing, 30(2), 3-29.
 
