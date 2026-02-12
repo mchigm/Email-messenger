@@ -1,4 +1,4 @@
-# Email-Messenger: A Novel Approach to Real-Time Communication Using Email Infrastructure
+# Email-messenger: A Novel Approach to Chat-Style Communication Using Email Infrastructure
 
 **Author:** MCHIGM  
 **Date:** February 2026  
@@ -8,9 +8,9 @@
 
 ## Abstract
 
-This paper presents Email-Messenger, an innovative messaging system that leverages existing email infrastructure to enable real-time chat communication. Unlike traditional instant messaging applications that require dedicated servers and protocols, Email-Messenger repurposes the ubiquitous Simple Mail Transfer Protocol (SMTP) and Internet Message Access Protocol (IMAP) to facilitate conversational exchanges. This approach offers several advantages, including universal accessibility, built-in security features, and interoperability across platforms. We discuss the system's architecture, implementation considerations, potential applications, and limitations.
+This paper presents Email-messenger, an innovative messaging system that leverages existing email infrastructure to enable near-real-time chat communication. Unlike traditional instant messaging applications that require dedicated servers and protocols, Email-messenger repurposes the ubiquitous Simple Mail Transfer Protocol (SMTP) and Internet Message Access Protocol (IMAP) to facilitate conversational exchanges. This approach offers several advantages, including universal accessibility, built-in security features, and interoperability across platforms. We discuss the system's architecture, implementation considerations, potential applications, and limitations.
 
-**Keywords:** Email, Instant Messaging, SMTP, IMAP, Real-time Communication, Distributed Systems
+**Keywords:** Email, Instant Messaging, SMTP, IMAP, Near-Real-Time Communication, Distributed Systems
 
 ---
 
@@ -30,7 +30,7 @@ In contrast, email infrastructure already exists globally, is maintained by nume
 
 ### 1.2 Motivation
 
-The motivation behind Email-Messenger stems from several key observations:
+The motivation behind Email-messenger stems from several key observations:
 
 1. **Universal Access:** Nearly every internet user has at least one email address, but not everyone has access to or uses the same instant messaging platforms.
 
@@ -45,7 +45,7 @@ The motivation behind Email-Messenger stems from several key observations:
 ### 1.3 Research Objectives
 
 This research aims to:
-- Demonstrate the feasibility of using email protocols for real-time chat communication
+- Demonstrate the feasibility of using email protocols for near-real-time chat communication
 - Design an architecture that minimizes latency while leveraging email infrastructure
 - Evaluate the trade-offs between traditional instant messaging and email-based chat
 - Identify use cases where email-based messaging provides unique advantages
@@ -66,7 +66,7 @@ Traditional instant messaging platforms face several challenges:
 
 5. **Data Sovereignty:** Organizations in regulated industries may be unable to use third-party messaging services due to data residency requirements.
 
-Email-Messenger addresses these challenges by building upon existing email infrastructure while providing a chat-like user experience.
+Email-messenger addresses these challenges by building upon existing email infrastructure while providing a chat-like user experience.
 
 ---
 
@@ -74,7 +74,7 @@ Email-Messenger addresses these challenges by building upon existing email infra
 
 ### 3.1 Core Concept
 
-Email-Messenger transforms email into a real-time communication medium by:
+Email-messenger transforms email into a chat communication medium by:
 - Implementing rapid polling mechanisms to check for new messages
 - Optimizing message formatting for chat-style conversations
 - Creating a user interface that mimics instant messaging applications
@@ -132,8 +132,8 @@ To minimize latency and improve user experience:
 
 ### 4.1 Technology Stack
 
-A typical implementation might utilize:
-- **Backend:** Java (as indicated by project context) for robust email protocol handling
+One possible implementation stack could utilize:
+- **Backend:** Java for robust email protocol handling
 - **Email Libraries:** JavaMail API for SMTP/IMAP operations
 - **UI Framework:** JavaFX or Swing for desktop applications, or web-based with Spring Boot
 - **Security:** TLS/SSL for encrypted connections, OAuth2 for authentication
@@ -162,7 +162,7 @@ Security measures include:
 
 ### 5.1 Enterprise Communication
 
-Organizations can leverage Email-Messenger for:
+Organizations can leverage Email-messenger for:
 - Internal chat that integrates with existing email compliance systems
 - Communication with external partners without requiring specific app installations
 - Meeting discussions that are automatically archived with email records
@@ -296,7 +296,7 @@ Several projects have explored email as a communication platform:
 
 ### 9.3 Differentiation
 
-Email-Messenger differs from existing solutions by:
+Email-messenger differs from existing solutions by:
 - Focusing on chat-style user experience rather than traditional email interface
 - Optimizing specifically for conversation-style exchanges
 - Providing framework for building custom chat applications on email
@@ -306,13 +306,13 @@ Email-Messenger differs from existing solutions by:
 
 ## 10. Conclusion
 
-Email-Messenger represents an innovative approach to instant messaging by repurposing the ubiquitous email infrastructure for real-time chat communication. While traditional instant messaging platforms continue to dominate the consumer market, email-based chat offers unique advantages in terms of interoperability, privacy, compliance, and universal accessibility.
+Email-messenger represents an innovative approach to instant messaging by repurposing the ubiquitous email infrastructure for near-real-time chat communication. While traditional instant messaging platforms continue to dominate the consumer market, email-based chat offers unique advantages in terms of interoperability, privacy, compliance, and universal accessibility.
 
 The system demonstrates that with appropriate optimization strategies, email can serve as a viable transport layer for conversational communication. Although it faces challenges in matching the latency and rich features of dedicated messaging platforms, it excels in scenarios where interoperability, privacy, compliance, or universal access are paramount.
 
-As the project continues to develop, future work will focus on minimizing latency through advanced polling strategies and push notifications, enhancing the user experience to match modern messaging expectations, and exploring hybrid approaches that combine the best aspects of email infrastructure with real-time communication protocols.
+As the project continues to develop, future work will focus on minimizing latency through advanced polling strategies and push notifications, enhancing the user experience to match modern messaging expectations, and exploring hybrid approaches that combine the best aspects of email infrastructure with near-real-time communication protocols.
 
-Email-Messenger opens new possibilities for decentralized, privacy-respecting communication that builds upon the most established digital communication protocol in existence. It serves as both a practical tool and a research platform for exploring alternative approaches to online communication in an era of increasing platform fragmentation and privacy concerns.
+Email-messenger opens new possibilities for decentralized, privacy-respecting communication that builds upon the most established digital communication protocol in existence. It serves as both a practical tool and a research platform for exploring alternative approaches to online communication in an era of increasing platform fragmentation and privacy concerns.
 
 ---
 
@@ -328,7 +328,7 @@ Email-Messenger opens new possibilities for decentralized, privacy-respecting co
 
 5. Callas, J., et al. (2007). "RFC 4880: OpenPGP Message Format." Internet Engineering Task Force.
 
-6. Jenkins, M., et al. (2019). "JMAP: The JSON Meta Application Protocol." Internet Engineering Task Force.
+6. Jenkins, N., & Newman, C. (2019). "RFC 8620: The JSON Meta Application Protocol (JMAP) for Mail." Internet Engineering Task Force.
 
 7. Delta Chat Project. (2024). "Delta Chat: Email-based Instant Messaging." https://delta.chat/ (Accessed February 2026)
 
@@ -378,14 +378,14 @@ Email-Messenger opens new possibilities for decentralized, privacy-respecting co
 
 ## Acknowledgments
 
-This research paper is based on the Email-Messenger project, an open-source initiative to explore alternative approaches to instant messaging. The project is released under the MIT License, encouraging collaboration and further research in this domain.
+This research paper is based on the Email-messenger project, an open-source initiative to explore alternative approaches to instant messaging. The project is released under the MIT License, encouraging collaboration and further research in this domain.
 
 Special thanks to the email protocol designers whose work over the past five decades has created the robust infrastructure upon which this project builds.
 
 ---
 
-**License:** This research paper is licensed under Creative Commons Attribution 4.0 International (CC BY 4.0)
+**License (this document only):** This research paper is licensed under the Creative Commons Attribution 4.0 International license (CC BY 4.0, SPDX-License-Identifier: CC-BY-4.0). The full license text is available at: https://creativecommons.org/licenses/by/4.0/
 
 **Project Repository:** https://github.com/mchigm/Email-messenger
 
-**Project License:** MIT License (Copyright 2026 MCHIGM)
+**Project License (source code and project materials):** MIT License (Copyright 2026 MCHIGM)
