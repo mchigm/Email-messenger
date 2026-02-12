@@ -54,7 +54,7 @@ The AI Email Messenger is an intelligent email communication system that uses ar
 ## Installation
 
 ### Prerequisites
-- Python 3.7 or higher
+- Python 3.8 or higher
 - pip package manager
 - Microphone (for STT mode)
 

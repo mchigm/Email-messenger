@@ -62,8 +62,3 @@ env/
 # OS
 .DS_Store
 Thumbs.db
-
-# Project specific
-config.json
-*.db
-*.sqlite

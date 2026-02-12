@@ -3,7 +3,7 @@ AI Processor Module
 Handles context understanding and token generation from email content
 """
 import logging
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Any
 import nltk
 from transformers import pipeline, AutoTokenizer, AutoModel
 import torch
@@ -39,7 +39,7 @@ class AIProcessor:
             logger.error(f"Error initializing AI Processor: {e}")
             raise
     
-    def extract_context(self, email_content: str) -> Dict[str, any]:
+    def extract_context(self, email_content: str) -> Dict[str, Any]:
         """
         Extract context and meaning from email content
         
@@ -81,7 +81,7 @@ class AIProcessor:
             logger.error(f"Error extracting context: {e}")
             return {'error': str(e)}
     
-    def generate_tokens(self, context: Dict[str, any]) -> List[str]:
+    def generate_tokens(self, context: Dict[str, Any]) -> List[str]:
         """
         Generate intelligent tokens from extracted context
         

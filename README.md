@@ -95,7 +95,7 @@ Edit `config.py` to customize:
 
 ## Requirements
 
-- Python 3.7+
+- Python 3.8+
 - Speech recognition library
 - GUI framework (tkinter)
 - AI/NLP libraries for context processing
