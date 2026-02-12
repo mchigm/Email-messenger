@@ -2,6 +2,26 @@
 
 An intelligent email-based messaging system powered by AI that transforms traditional email communication into a smart, context-aware messaging experience.
 
+## Quick Start
+
+```bash
+# Clone and setup
+git clone https://github.com/mchigm/Email-messenger.git
+cd Email-messenger
+pip install -r requirements.txt
+
+# Download required NLP data
+python3 -c "import nltk; nltk.download('punkt'); nltk.download('stopwords')"
+
+# Run in GUI mode
+python main.py --mode gui
+
+# Or run in voice command mode
+python main.py --mode stt
+```
+
+For detailed instructions, see [USAGE.md](USAGE.md). For architecture details, see [ARCHITECTURE.md](ARCHITECTURE.md).
+
 ## Overview
 
 This AI messenger revolutionizes email communication by:
@@ -42,8 +62,15 @@ This AI messenger revolutionizes email communication by:
 git clone https://github.com/mchigm/Email-messenger.git
 cd Email-messenger
 
+# Create virtual environment (recommended)
+python3 -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
 # Install dependencies
 pip install -r requirements.txt
+
+# Download NLTK data
+python3 -c "import nltk; nltk.download('punkt'); nltk.download('stopwords')"
 ```
 
 ## Usage
