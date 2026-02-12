@@ -7,7 +7,7 @@ from tkinter import ttk, scrolledtext, messagebox
 import logging
 from typing import Optional
 
-from config import WINDOW_WIDTH, WINDOW_HEIGHT, THEME
+from config import WINDOW_WIDTH, WINDOW_HEIGHT
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

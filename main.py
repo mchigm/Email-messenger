@@ -150,11 +150,8 @@ def main():
     
     if args.mode == 'gui':
         run_gui_mode()
-    elif args.mode == 'stt':
+    else:  # args.mode == 'stt'
         run_stt_mode()
-    else:
-        print(f"Unknown mode: {args.mode}")
-        sys.exit(1)
 
 
 if __name__ == '__main__':

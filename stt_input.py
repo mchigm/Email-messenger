@@ -52,10 +52,8 @@ class STTInput:
             
             logger.info("Processing speech...")
             
-            # Use selected engine
-            if self.engine == 'google':
-                text = self.recognizer.recognize_google(audio, language=self.language)
-            elif self.engine == 'sphinx':
+            # Use selected engine (default: google)
+            if self.engine == 'sphinx':
                 text = self.recognizer.recognize_sphinx(audio)
             else:
                 text = self.recognizer.recognize_google(audio, language=self.language)
@@ -102,8 +100,9 @@ class STTInput:
             
             logger.info("Processing your message...")
             
-            if self.engine == 'google':
-                text = self.recognizer.recognize_google(audio, language=self.language)
+            # Use selected engine (default: google)
+            if self.engine == 'sphinx':
+                text = self.recognizer.recognize_sphinx(audio)
             else:
                 text = self.recognizer.recognize_google(audio, language=self.language)
             
